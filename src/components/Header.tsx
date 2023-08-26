@@ -8,6 +8,29 @@ import { useRouter } from 'next/navigation'
 export default function Header({themeColor}: {themeColor: string}) {
     const router = useRouter();
 
+    function navigate(route: string): void {
+        switch(route) {
+            case "Our Process":
+                router.push('/ourProcess');
+                break;
+            case "Services":
+                router.push('/services');
+                break;
+            case "Cases":
+                router.push('/cases');
+                break;
+            case "Careers":
+                router.push('/careers');
+                break;
+            case "Blog":
+                router.push('/blog');
+                break;
+            default:
+                router.push('/');
+                break;
+        }
+    }
+
     return (
         <div className={classNames('fixed grid grid-cols-3 gap-4 items-center justify-between top-0 2xl:px-52 px-36 pt-16 pb-6 w-full text-white z-50', themeColor)}>
             <div>
@@ -23,7 +46,12 @@ export default function Header({themeColor}: {themeColor: string}) {
                     headerNav.map((option, index)=>{
                         return (
                             <div key={index}>
-                                <p className="cursor-pointer font-medium text-xl hover:text-mainYellow transition duration-150 ease-in-out">{option}</p>
+                                <p 
+                                    className="cursor-pointer font-medium text-xl hover:text-mainYellow transition duration-150 ease-in-out"
+                                    onClick={()=>navigate(option)}
+                                >
+                                    {option}
+                                </p>
                             </div>
                         )
                     })

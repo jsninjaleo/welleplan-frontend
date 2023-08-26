@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/Heebo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/Helvetica Neu Bold.ttf') format('truetype');
+}
+
+main {
+    font-family: 'Heebo', sans-serif;
+}
+
+h1 {
+    font-family: 'HelveticaNeue', sans-serif;
+}

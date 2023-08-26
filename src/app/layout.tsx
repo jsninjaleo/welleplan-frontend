@@ -36,6 +36,10 @@ export default function RootLayout({
         setHeaderColor('bg-mainPurple');
         setFooterColor('bg-mainPurple_dark');
         break;
+      case '/services':
+        setHeaderColor('bg-mainBlue');
+        setFooterColor('bg-mainBlue_dark');
+        break;
       default:
         setHeaderColor('bg-mainBlue');
         setFooterColor('bg-mainBlue');
