@@ -10,7 +10,7 @@ export default function ContactUs() {
     <div>
       <div className="bg-mainBlue grid grid-cols-3 gap-20 pt-96 pb-36 2xl:px-52 px-36 relative">
         <div className='col-span-3 text-5xl font-bold'>
-            Sevices
+            Services
         </div>
 
         <div>
