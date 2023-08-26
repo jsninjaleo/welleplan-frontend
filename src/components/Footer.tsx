@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { footerList, socialPaths } from '@/config/footer'
 import classNames from "../../node_modules/classnames/index"
 import Button from "@/elements/button"
@@ -60,7 +61,7 @@ export default function Footer({themeColor}: {themeColor: string}) {
                     {
                     socialPaths.map((path, index)=>{
                         return (
-                        <img key={index} src={path} className='cursor-pointer' alt="" />
+                        <Image key={index} src={path} className='cursor-pointer' width={22} height={22} alt="" />
                         )
                     })
                     }
