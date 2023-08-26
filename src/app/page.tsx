@@ -3,6 +3,7 @@
 import { useRef } from 'react'
 import Button from '@/elements/button'
 import { motion, useInView } from 'framer-motion'
+import Image from 'next/image'
 
 export default function Home() {
   const first_section = useRef(null);
@@ -82,7 +83,7 @@ export default function Home() {
               animate={{ opacity: [0, 0.5, 1, 0.5, 0]}}
               transition={{ repeat: Infinity , duration: 2 }}
           >
-            <img src="/images/logo_seg1.svg" className='absolute bottom-16 right-[415px]' />
+            <Image src="/images/logo_seg1.svg" className='absolute bottom-16 right-[415px]' width={545} height={124} alt="" />
           </motion.div>
 
           <motion.div
@@ -90,7 +91,7 @@ export default function Home() {
               animate={{ opacity: [0, 0.5, 1, 0.5, 0]}}
               transition={{ repeat: Infinity , duration: 2, delay: 0.4 }}
           >
-            <img src="/images/logo_seg2.svg" className='absolute bottom-16 right-[290px]' />
+            <Image src="/images/logo_seg2.svg" className='absolute bottom-16 right-[290px]' width={309} height={153} alt="" />
           </motion.div>
 
           <motion.div
@@ -98,7 +99,7 @@ export default function Home() {
               animate={{ opacity: [0, 0.5, 1, 0.5, 0]}}
               transition={{ repeat: Infinity , duration: 2, delay: 0.75 }}
           >
-            <img src="/images/logo_seg3.svg" className='absolute bottom-16 right-0' />
+            <Image src="/images/logo_seg3.svg" className='absolute bottom-16 right-0' width={378} height={219} alt="" />
           </motion.div>
 
           <motion.div
@@ -106,7 +107,7 @@ export default function Home() {
               animate={{ opacity: [0, 0.5, 1, 0.5, 0]}}
               transition={{ repeat: Infinity , duration: 2, delay: 1.1 }}
           >
-            <img src="/images/logo_seg4.svg" className='absolute bottom-[232px] right-0' />
+            <Image src="/images/logo_seg4.svg" className='absolute bottom-[232px] right-0' width={269} height={201} alt="" />
           </motion.div>
 
           <motion.div
@@ -114,7 +115,7 @@ export default function Home() {
               animate={{ opacity: [0, 0.5, 1, 0.5, 0]}}
               transition={{ repeat: Infinity , duration: 2, delay: 1.45 }}
           >
-            <img src="/images/logo_seg5.svg" className='absolute bottom-[312px] right-0' />
+            <Image src="/images/logo_seg5.svg" className='absolute bottom-[312px] right-0' width={219} height={340} alt="" />
           </motion.div>
 
           <motion.div
@@ -122,7 +123,7 @@ export default function Home() {
               animate={{ opacity: [0, 0.5, 1, 0.5, 0]}}
               transition={{ repeat: Infinity , duration: 2, delay: 1.8 }}
           >
-            <img src="/images/logo_seg6.svg" className='absolute bottom-[211px] right-[251px]' />
+            <Image src="/images/logo_seg6.svg" className='absolute bottom-[211px] right-[251px]' width={109} height={67} alt="" />
           </motion.div>
         </div>  
       </div>
@@ -151,7 +152,7 @@ export default function Home() {
           className='col-span-3 flex items-center justify-center'
           ref={second_section}
         >
-          <img src="/images/image_landing1.svg" alt="" />
+          <Image src="/images/image_landing1.svg" width={722} height={481} alt="" />
         </motion.div>
       </div>
 
@@ -161,7 +162,7 @@ export default function Home() {
             Welleplan is a software, product design and engineering company that’s passionate about crafting ideas into lovable products.
             While coding is what we love to do most, we also do much more than that.
           </p>
-          <img src="/images/brand.svg" className='absolute bottom-24 right-0' />
+          <Image src="/images/brand.svg" className='absolute bottom-24 right-0' width={95} height={93} />
         </div>  
       </div>
 
@@ -175,9 +176,9 @@ export default function Home() {
           transition={third_section_view? { duration: 1, delay: 0.3 } : {}}
           className='flex items-center justify-center'
         >
-          <img src="/images/image_landing2.svg" alt='' />
+          <Image src="/images/image_landing2.svg" width={500} height={500} alt='' />
         </motion.div>
-
+ 
         <motion.div
           initial={{ y:200, opacity: 0}}
           animate={third_section_view? { y: 0, opacity: 1} : {}}
@@ -223,7 +224,7 @@ export default function Home() {
           transition={third_section_view? { duration: 1, delay: 1.1 } : {}}
           className='flex items-center justify-center'
         >
-          <img src="/images/image_landing3.svg" alt='' />
+          <Image src="/images/image_landing3.svg" alt='' width={497} height={331}  />
         </motion.div>
 
         <motion.div
@@ -232,7 +233,7 @@ export default function Home() {
           transition={third_section_view? { duration: 1, delay: 1.5 } : {}}
           className='flex items-center justify-center mt-52'
         >
-          <img src="/images/image_landing4.svg" alt='' />
+          <Image src="/images/image_landing4.svg" alt=''  width={489} height={326} />
         </motion.div>
 
         <div className='flex items-center mt-52'>
