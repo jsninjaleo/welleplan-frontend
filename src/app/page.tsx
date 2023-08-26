@@ -162,7 +162,7 @@ export default function Home() {
             Welleplan is a software, product design and engineering company that’s passionate about crafting ideas into lovable products.
             While coding is what we love to do most, we also do much more than that.
           </p>
-          <Image src="/images/brand.svg" className='absolute bottom-24 right-0' width={95} height={93} />
+          <Image src="/images/brand.svg" className='absolute bottom-24 right-0' width={95} height={93} alt="" />
         </div>  
       </div>
 
@@ -267,7 +267,7 @@ export default function Home() {
                 }
                 handleClick={()=>{}}
               >
-                  Let's build something
+                  {"Let's build something"}
               </Button>
             </motion.div>
           </div>

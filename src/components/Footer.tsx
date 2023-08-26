@@ -42,7 +42,7 @@ export default function Footer({themeColor}: {themeColor: string}) {
                                         }
                                         handleClick={()=>{}}
                                     >
-                                        Let's Connect
+                                        {"Let's Connect"}
                                     </Button>
                                     </div>
                                 )
