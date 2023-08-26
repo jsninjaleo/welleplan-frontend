@@ -12,10 +12,10 @@ import ScrollTop from '@/elements/scrollTop'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'Wellplan',
-  description: 'Wellplan',
-}
+// export const metadata: Metadata = {
+//   title: 'Wellplan',
+//   description: 'Wellplan',
+// }
 
 export default function RootLayout({
   children,
