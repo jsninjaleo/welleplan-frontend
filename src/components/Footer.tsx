@@ -9,19 +9,19 @@ export default function Footer({themeColor}: {themeColor: string}) {
     return (
         <div>
             <div className={classNames('2xl:px-52 px-36 pt-24 grid grid-cols-4 gap-4', themeColor )}>
-            <div className='col-span-4 mb-24'>
-                <p className='text-white text-5xl font-bold'>Welleplan</p>
+            <div className='col-span-4 mb-20'>
+                <p className='text-white text-4xl font-bold'>Welleplan</p>
             </div>
                 {
                     footerList.map((list, index)=>{
                         return (
                             <div key={index} className={classNames('mb-10', index === 5? 'col-span-2' : null, themeColor === 'bg-mainPurple_dark' ? 'text-white' : null)}>
-                                <p className='font-medium text-3xl mb-3'>{list.title}</p>
+                                <p className='font-medium text-2xl mb-3'>{list.title}</p>
                                 <ul>
                                 {
                                     list.options.map((option, key)=>{
                                     return (
-                                        <li key={key} className='text-lg mb-3'>{option}</li>
+                                        <li key={key} className='text-md mb-3'>{option}</li>
                                     )
                                     })
                                 }
@@ -29,11 +29,11 @@ export default function Footer({themeColor}: {themeColor: string}) {
 
                                 {
                                 index === 6 && (
-                                    <div className='w-48 h-12 mt-8'>
+                                    <div className='w-40 h-10 mt-8'>
                                     <Button
                                         style={
                                         { 
-                                            fontSize: 'text-xl', 
+                                            fontSize: 'text-lg', 
                                             fontColor: 'text-white',
                                             hoveredFontColor: 'hover:text-mainYellow',
                                             bgColor: 'bg-black',
