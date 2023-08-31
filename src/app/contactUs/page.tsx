@@ -8,7 +8,7 @@ import { motion, useInView } from 'framer-motion'
 export default function ContactUs() {
   return (
     <div>
-      <div className="bg-mainPurple grid grid-cols-5 gap-20 pt-96 pb-36 2xl:px-52 px-36 relative">
+      <div className="bg-mainPurple grid grid-cols-5 gap-20 pt-96 pb-36 2xl:px-52 px-32 relative">
         <div className='text-white col-span-3'>
           <p className='text-5xl font-bold'>
             So we work together?

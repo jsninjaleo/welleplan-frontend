@@ -32,22 +32,22 @@ export default function Header({themeColor}: {themeColor: string}) {
     }
 
     return (
-        <div className={classNames('fixed grid grid-cols-3 gap-4 items-center justify-between top-0 2xl:px-52 px-36 pt-16 pb-6 w-full text-white z-50', themeColor)}>
+        <div className={classNames('fixed grid grid-cols-4 gap-4 items-center justify-between top-0 2xl:px-52 px-32 pt-10 pb-8 w-full text-white z-50', themeColor)}>
             <div>
                 <h1 
-                    className="font-bold text-6xl cursor-pointer"
+                    className="font-bold text-5xl cursor-pointer"
                     onClick={()=>{router.push('/')}}
                 >
                     Welleplan
                 </h1>
             </div>
-            <div className="col-span-2 flex items-center justify-between">
+            <div className="col-span-3 flex items-center justify-between">
                 {
                     headerNav.map((option, index)=>{
                         return (
                             <div key={index}>
                                 <p 
-                                    className="cursor-pointer font-medium text-xl hover:text-mainYellow transition duration-150 ease-in-out"
+                                    className="cursor-pointer font-medium text-lg hover:text-mainYellow transition duration-150 ease-in-out"
                                     onClick={()=>navigate(option)}
                                 >
                                     {option}
@@ -56,11 +56,11 @@ export default function Header({themeColor}: {themeColor: string}) {
                         )
                     })
                 }
-                <div className="w-52 h-12">
+                <div className="w-40 h-10">
                     <Button
                         style={
                             { 
-                                fontSize: 'text-xl', 
+                                fontSize: 'text-lg', 
                                 fontColor: themeColor === 'bg-mainPurple' ? 'text-mainPurple' : 'text-mainBlue',
                                 hoveredFontColor: 'hover:text-white',
                                 bgColor: 'bg-white', 
