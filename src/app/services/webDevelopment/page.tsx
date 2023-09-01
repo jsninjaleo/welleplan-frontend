@@ -1,12 +1,10 @@
 'use client'
 
-import { useRef } from 'react'
 import Image from 'next/image'
 import AnimationBrand from '@/components/Home/AnimationBrand'
 import { webDevelopmentList } from '@/config/development'
 
 export default function ContactUs() {
-  const first_section = useRef(null);
 
   return (
     <div>

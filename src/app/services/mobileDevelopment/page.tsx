@@ -1,8 +1,5 @@
 'use client'
 
-import { useRef } from 'react'
-import { useRouter } from 'next/navigation'
-import { motion, useInView } from 'framer-motion'
 import Image from 'next/image'
 import AnimationBrand from '@/components/Home/AnimationBrand'
 import { mobileDevelopmentList } from '@/config/development'
@@ -10,10 +7,6 @@ import { mobileDevelopmentList } from '@/config/development'
 
 
 export default function ContactUs() {
-  const first_section = useRef(null);
-  const first_section_view = useInView(first_section);
-  const router = useRouter();
-
   return (
     <div>
             <div className="bg-gradient-to-r from-60% from-lightYellow_gradient to-mainBlue grid grid-cols-2 gap-20 pt-28 pb-4 2xl:px-52 px-32 relative">
