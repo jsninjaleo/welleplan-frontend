@@ -9,9 +9,9 @@ export default function Footer({themeColor}: {themeColor: string}) {
     return (
         <div>
             <div className={classNames('2xl:px-52 px-36 pt-24 grid grid-cols-4 gap-4', themeColor )}>
-            <div className='col-span-4 mb-20'>
-                <p className='text-white text-3xl font-bold'>Welleplan</p>
-            </div>
+                <div className='col-span-4 mb-20'>
+                    <p className='text-white text-3xl font-bold'>Welleplan</p>
+                </div>
                 {
                     footerList.map((list, index)=>{
                         return (
