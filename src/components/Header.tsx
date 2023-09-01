@@ -35,42 +35,44 @@ export default function Header({themeColor}: {themeColor: string}) {
         <div className={classNames('fixed grid xl:grid-cols-3 grid-cols-4 gap-4 items-center justify-between top-0 2xl:px-52 px-32 pt-10 pb-8 w-full text-white z-50', themeColor)}>
             <div>
                 <h1 
-                    className="font-bold text-4xl cursor-pointer"
+                    className="font-bold text-3xl cursor-pointer"
                     onClick={()=>{router.push('/')}}
                 >
                     Welleplan
                 </h1>
             </div>
-            <div className="xl:col-span-2 col-span-3 flex items-center justify-between">
-                {
-                    headerNav.map((option, index)=>{
-                        return (
-                            <div key={index}>
-                                <p 
-                                    className="cursor-pointer font-medium text-lg hover:text-mainYellow transition duration-150 ease-in-out"
-                                    onClick={()=>navigate(option)}
-                                >
-                                    {option}
-                                </p>
-                            </div>
-                        )
-                    })
-                }
-                <div className="w-40 h-10">
-                    <Button
-                        style={
-                            { 
-                                fontSize: 'text-lg', 
-                                fontColor: themeColor === 'bg-mainPurple' ? 'text-mainPurple' : 'text-mainBlue',
-                                hoveredFontColor: 'hover:text-white',
-                                bgColor: 'bg-white', 
-                                hoveredBgColor: 'hover:bg-mainYellow' 
+            <div className="xl:col-span-2 col-span-3">
+                <div className="ml-auto 2xl:w-5/6 xl:11/12 w-full flex items-center justify-between">
+                    {
+                        headerNav.map((option, index)=>{
+                            return (
+                                <div key={index}>
+                                    <p 
+                                        className="cursor-pointer text-lg hover:text-mainYellow transition duration-150 ease-in-out"
+                                        onClick={()=>navigate(option)}
+                                    >
+                                        {option}
+                                    </p>
+                                </div>
+                            )
+                        })
+                    }
+                    <div className="w-40 h-10">
+                        <Button
+                            style={
+                                { 
+                                    fontSize: 'text-lg', 
+                                    fontColor: themeColor === 'bg-mainPurple' ? 'text-mainPurple' : 'text-mainBlue',
+                                    hoveredFontColor: 'hover:text-white',
+                                    bgColor: 'bg-white', 
+                                    hoveredBgColor: 'hover:bg-mainYellow' 
+                                }
                             }
-                        }
-                        handleClick={()=>{router.push('/contactUs')}}
-                    >
-                        Contact us
-                    </Button>
+                            handleClick={()=>{router.push('/contactUs')}}
+                        >
+                            Contact us
+                        </Button>
+                    </div>
                 </div>
             </div>
         </div>

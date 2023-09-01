@@ -16,9 +16,9 @@
     src: url('/fonts/Helvetica Neu Bold.ttf') format('truetype');
 }
 
-main {
+/* main {
     font-family: 'Heebo', sans-serif;
-}
+} */
 
 h1 {
     font-family: 'HelveticaNeue', sans-serif;

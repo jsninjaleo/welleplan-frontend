@@ -1,9 +1,6 @@
 'use client'
 
-import { useRef } from 'react'
 import Input from '@/elements/input'
-import { motion, useInView } from 'framer-motion'
-
 
 export default function ContactUs() {
   return (
