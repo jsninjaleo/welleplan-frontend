@@ -32,14 +32,14 @@ export default function RootLayout({
         setHeaderColor('bg-mainBlue');
         setFooterColor('bg-mainBlue');
         break;
-      case '/contactUs':
-        setHeaderColor('bg-mainPurple');
-        setFooterColor('bg-mainPurple_dark');
-        break;
-      case '/services':
-        setHeaderColor('bg-mainBlue');
-        setFooterColor('bg-mainBlue_dark');
-        break;
+      // case '/contactUs':
+      //   setHeaderColor('bg-mainPurple');
+      //   setFooterColor('bg-mainPurple_dark');
+      //   break;
+      // case '/services':
+      //   setHeaderColor('bg-mainBlue');
+      //   setFooterColor('bg-mainBlue_dark');
+      //   break;
       default:
         setHeaderColor('bg-mainBlue');
         setFooterColor('bg-mainBlue');

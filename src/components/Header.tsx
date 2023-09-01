@@ -32,16 +32,16 @@ export default function Header({themeColor}: {themeColor: string}) {
     }
 
     return (
-        <div className={classNames('fixed grid grid-cols-4 gap-4 items-center justify-between top-0 2xl:px-52 px-32 pt-10 pb-8 w-full text-white z-50', themeColor)}>
+        <div className={classNames('fixed grid xl:grid-cols-3 grid-cols-4 gap-4 items-center justify-between top-0 2xl:px-52 px-32 pt-10 pb-8 w-full text-white z-50', themeColor)}>
             <div>
                 <h1 
-                    className="font-bold text-5xl cursor-pointer"
+                    className="font-bold text-4xl cursor-pointer"
                     onClick={()=>{router.push('/')}}
                 >
                     Welleplan
                 </h1>
             </div>
-            <div className="col-span-3 flex items-center justify-between">
+            <div className="xl:col-span-2 col-span-3 flex items-center justify-between">
                 {
                     headerNav.map((option, index)=>{
                         return (
