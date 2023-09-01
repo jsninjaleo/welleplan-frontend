@@ -17,9 +17,12 @@ const config: Config = {
       colors: {
         mainBlue: '#25CAD2',
         mainBlue_dark: '#1C999F',
+        mainBlue_light: '#96fcff',
         mainYellow: '#FFCC6A',
         mainPurple: '#65007E',
         mainPurple_dark: '#340040',
+        darkYellow_gradient: '#FFA800',
+        lightYellow_gradient: '#FFC635',
       }
     },
   },

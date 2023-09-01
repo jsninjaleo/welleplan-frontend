@@ -4,6 +4,7 @@ import { useRef } from 'react'
 import Button from '@/elements/button'
 import { motion, useInView } from 'framer-motion'
 import Image from 'next/image'
+import AnimationBrand from "@/components/Home/AnimationBrand"
 
 export default function Home() {
   const first_section = useRef(null);
@@ -15,7 +16,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="h-screen bg-mainBlue grid grid-cols-2 gap-4 items-center 2xl:px-52 px-36 relative">
+      <div className="h-screen bg-mainBlue grid grid-cols-2 gap-4 items-center 2xl:px-52 px-32 relative">
         <div className='text-white'>
           <motion.div
             initial={{ scale: 0.9, opacity: 0}}
@@ -77,54 +78,8 @@ export default function Home() {
           </motion.div>
         </div>
 
-        <div className='h-full relative'>
-          <motion.div
-              initial={{ opacity: 0}}
-              animate={{ opacity: [0, 0.5, 1, 0.5, 0]}}
-              transition={{ repeat: Infinity , duration: 2 }}
-          >
-            <Image src="/images/logo_seg1.svg" className='absolute bottom-16 right-[332px]' width={436} height={99} alt="" />
-          </motion.div>
-
-          <motion.div
-              initial={{ opacity: 0}}
-              animate={{ opacity: [0, 0.5, 1, 0.5, 0]}}
-              transition={{ repeat: Infinity , duration: 2, delay: 0.4 }}
-          >
-            <Image src="/images/logo_seg2.svg" className='absolute bottom-16 right-[232px]' width={247} height={122} alt="" />
-          </motion.div>
-
-          <motion.div
-              initial={{ opacity: 0}}
-              animate={{ opacity: [0, 0.5, 1, 0.5, 0]}}
-              transition={{ repeat: Infinity , duration: 2, delay: 0.75 }}
-          >
-            <Image src="/images/logo_seg3.svg" className='absolute bottom-16 right-0' width={302} height={175} alt="" />
-          </motion.div>
-
-          <motion.div
-              initial={{ opacity: 0}}
-              animate={{ opacity: [0, 0.5, 1, 0.5, 0]}}
-              transition={{ repeat: Infinity , duration: 2, delay: 1.1 }}
-          >
-            <Image src="/images/logo_seg4.svg" className='absolute bottom-[198px] right-0' width={215} height={161} alt="" />
-          </motion.div>
-
-          <motion.div
-              initial={{ opacity: 0}}
-              animate={{ opacity: [0, 0.5, 1, 0.5, 0]}}
-              transition={{ repeat: Infinity , duration: 2, delay: 1.45 }}
-          >
-            <Image src="/images/logo_seg5.svg" className='absolute bottom-[262px] right-0' width={175} height={272} alt="" />
-          </motion.div>
-
-          <motion.div
-              initial={{ opacity: 0}}
-              animate={{ opacity: [0, 0.5, 1, 0.5, 0]}}
-              transition={{ repeat: Infinity , duration: 2, delay: 1.8 }}
-          >
-            <Image src="/images/logo_seg6.svg" className='absolute bottom-[182px] right-[202px]' width={87} height={54} alt="" />
-          </motion.div>
+        <div className='h-full pb-16'>
+          <AnimationBrand></AnimationBrand>
         </div>  
       </div>
 
@@ -161,7 +116,7 @@ export default function Home() {
             Welleplan is a software, product design and engineering company that’s passionate about crafting ideas into lovable products.
             While coding is what we love to do most, we also do much more than that.
           </p>
-          <Image src="/images/brand.svg" className='absolute bottom-24 right-0' width={95} height={93} alt="" />
+          <Image src="/images/brand.svg" className='absolute xl:bottom-16 bottom-8 right-0' width={95} height={93} alt="" />
         </div>  
       </div>
 

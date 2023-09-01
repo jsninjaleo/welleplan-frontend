@@ -8,9 +8,9 @@ import { motion, useInView } from 'framer-motion'
 export default function ContactUs() {
   return (
     <div>
-      <div className="bg-mainPurple grid grid-cols-5 gap-20 pt-96 pb-36 2xl:px-52 px-32 relative">
+      <div className="bg-mainBlue grid grid-cols-5 gap-20 pt-48 pb-36 2xl:px-52 px-32 relative">
         <div className='text-white col-span-3'>
-          <p className='text-5xl font-bold'>
+          <p className='text-4xl font-bold'>
             So we work together?
           </p>
 
@@ -78,20 +78,20 @@ export default function ContactUs() {
         </div>
 
         <div className='text-white col-span-2'>
-          <p className='text-5xl font-bold'>
+          <p className='text-4xl font-bold'>
             Other inquries?
           </p>
           
           <div className='mt-24'>
-            <p className='text-2xl font-bold mb-2'>Office</p>
-            <p className='text-2xl mb-2'>office@welleplan.com</p>
-            <p className='text-2xl'>+387 60 345 65 36</p>
+            <p className='text-xl font-bold mb-2'>Office</p>
+            <p className='text-xl mb-2'>office@welleplan.com</p>
+            <p className='text-xl'>+387 60 345 65 36</p>
           </div>
 
           <div className='mt-24'>
-            <p className='text-2xl font-bold mb-2'>Projects</p>
-            <p className='text-2xl mb-2'>projects@welleplan.com</p>
-            <p className='text-2xl'>+387 60 345 65 36</p>
+            <p className='text-xl font-bold mb-2'>Projects</p>
+            <p className='text-xl mb-2'>projects@welleplan.com</p>
+            <p className='text-xl'>+387 60 345 65 36</p>
           </div>
         </div>
       </div>
