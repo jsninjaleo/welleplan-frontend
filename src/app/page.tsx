@@ -24,7 +24,7 @@ export default function Home() {
             transition={first_section_view? { duration: 2, delay: 0.3 } : {}}
             ref={first_section}
           >
-            <h1 className='text-6xl font-bold leading-normal'>Creating software that matters</h1>
+            <h1 className='2xl:text-6xl text-5xl font-bold !leading-normal'>Creating software that matters</h1>
           </motion.div>
 
           <motion.div
@@ -83,7 +83,7 @@ export default function Home() {
         </div>  
       </div>
 
-      <div className='h-screen bg-white grid grid-cols-2 gap-4 items-center 2xl:px-52 px-36 relative'>
+      <div className='py-36 bg-white grid grid-cols-2 gap-4 items-center 2xl:px-52 px-36 relative'>
         <motion.div
           initial={{ x:-200, opacity: 0}}
           animate={second_section_view? { x: 0, opacity: 1} : {}}
@@ -110,18 +110,18 @@ export default function Home() {
         </motion.div>
       </div>
 
-      <div className='h-screen bg-mainBlue 2xl:px-52 px-36'>
+      <div className='py-36 bg-mainBlue 2xl:px-52 px-36'>
         <div className='relative h-full flex justify-center items-center'>
           <p className='text-5xl text-white text-center leading-[72px]'>
             Welleplan is a software, product design and engineering company that’s passionate about crafting ideas into lovable products.
             While coding is what we love to do most, we also do much more than that.
           </p>
-          <Image src="/images/brand.svg" className='absolute xl:bottom-16 bottom-8 right-0' width={95} height={93} alt="" />
+          <Image src="/images/brand.svg" className='absolute -bottom-24 right-0' width={95} height={93} alt="" />
         </div>  
       </div>
 
       <div 
-        className='bg-white grid grid-cols-2 gap-4 2xl:px-52 px-36 py-64' 
+        className='bg-white grid grid-cols-2 gap-4 2xl:px-52 px-36 py-36' 
         ref={third_section}
       >
         <motion.div
@@ -228,7 +228,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='bg-mainBlue 2xl:px-52 px-36 pt-16 pb-20'>
+      <div className='bg-mainBlue 2xl:px-52 px-36 py-24'>
         <div className='text-center'>
           <p className='text-4xl font-medium'>
             Want to stay in the loop?
@@ -269,7 +269,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='bg-white 2xl:px-52 px-36 py-32 grid grid-cols-4 gap-4'>
+      <div className='bg-white 2xl:px-52 px-36 py-36 grid grid-cols-4 gap-4'>
          <div className='col-span-2'>
           <p className='text-4xl font-semibold mb-8'>Addittional content</p>
           <p className='text-3xl leading-[46px]'>
