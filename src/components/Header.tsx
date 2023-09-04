@@ -35,7 +35,7 @@ export default function Header({themeColor}: {themeColor: string}) {
         <div className={classNames('fixed grid xl:grid-cols-3 grid-cols-4 gap-4 items-center justify-between top-0 2xl:px-52 px-32 pt-10 pb-8 w-full text-white z-50', themeColor)}>
             <div>
                 <h1 
-                    className="font-bold text-3xl cursor-pointer"
+                    className="font-bold 2xl:text-3xl text-2xl cursor-pointer"
                     onClick={()=>{router.push('/')}}
                 >
                     Welleplan
@@ -48,7 +48,7 @@ export default function Header({themeColor}: {themeColor: string}) {
                             return (
                                 <div key={index}>
                                     <p 
-                                        className="cursor-pointer text-lg hover:text-mainYellow transition duration-150 ease-in-out"
+                                        className="cursor-pointer 2xl:text-lg text-md hover:text-mainYellow transition duration-150 ease-in-out"
                                         onClick={()=>navigate(option)}
                                     >
                                         {option}
@@ -57,11 +57,11 @@ export default function Header({themeColor}: {themeColor: string}) {
                             )
                         })
                     }
-                    <div className="w-40 h-10">
+                    <div className="2xl:w-40 w-32 2xl:h-10 h-8">
                         <Button
                             style={
                                 { 
-                                    fontSize: 'text-lg', 
+                                    fontSize: '2xl:text-lg text-md', 
                                     fontColor: themeColor === 'bg-mainPurple' ? 'text-mainPurple' : 'text-mainBlue',
                                     hoveredFontColor: 'hover:text-white',
                                     bgColor: 'bg-white', 
@@ -70,7 +70,7 @@ export default function Header({themeColor}: {themeColor: string}) {
                             }
                             handleClick={()=>{router.push('/contactUs')}}
                         >
-                            Contact us
+                            Contact Us
                         </Button>
                     </div>
                 </div>
