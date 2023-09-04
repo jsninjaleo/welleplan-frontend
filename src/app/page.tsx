@@ -29,9 +29,9 @@ export default function Home() {
             transition={first_section_view? { duration: 2, delay: 0.3 } : {}}
             ref={first_section}
           >
-            <h1 className='2xl:text-5xl xl:text-4xl text-3xl font-bold !leading-normal'>
+            <p className='2xl:text-5xl xl:text-4xl text-3xl font-bold !leading-normal'>
               Welcome to Welleplan <br></br>Your Partner in Software Development
-            </h1>
+            </p>
           </motion.div>
 
           <motion.div

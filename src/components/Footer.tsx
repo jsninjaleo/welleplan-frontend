@@ -59,10 +59,10 @@ export default function Footer({themeColor}: {themeColor: string}) {
                 </div>
 
                 <div 
-                    className='col-span-2 flex justify-center font-bold text-white 2xl:text-2xl text-xl cursor-pointer'
+                    className='col-span-2 flex justify-center cursor-pointer'
                     onClick={()=>router.push('/')}
                 >
-                    Welleplan
+                    <h1 className='font-bold text-white 2xl:text-2xl text-xl'>Welleplan</h1>
                 </div>
 
                 <div></div>
