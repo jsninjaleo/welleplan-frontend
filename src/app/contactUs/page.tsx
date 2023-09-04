@@ -7,11 +7,11 @@ export default function ContactUs() {
     <div>
       <div className="bg-mainBlue grid grid-cols-5 gap-20 pt-48 pb-36 2xl:px-52 px-32 relative">
         <div className='text-white col-span-3'>
-          <p className='text-4xl font-bold'>
+          <p className='2xl:text-3xl text-2xl font-bold'>
             So we work together?
           </p>
 
-          <div className='grid grid-cols-2 gap-8 mt-24'>
+          <div className='grid grid-cols-2 gap-8 2xl:mt-24 mt-16'>
             <div className='col-span-2'>
               <Input
                 settings={
@@ -24,7 +24,7 @@ export default function ContactUs() {
               />
             </div>
 
-            <div className='mt-16'>
+            <div className='2xl:mt-16 mt-12'>
               <Input
                 settings={
                   {
@@ -36,7 +36,7 @@ export default function ContactUs() {
               />
             </div>
 
-            <div className='mt-16'>
+            <div className='2xl:mt-16 mt-12'>
               <Input
                 settings={
                   {
@@ -48,7 +48,7 @@ export default function ContactUs() {
               />
             </div>
 
-            <div className='mt-16 col-span-2'>
+            <div className='2xl:mt-16 mt-12 col-span-2'>
               <Input
                 settings={
                   {
@@ -60,7 +60,7 @@ export default function ContactUs() {
               />
             </div>
 
-            <div className='mt-16 col-span-2'>
+            <div className='2xl:mt-16 mt-12 col-span-2'>
               <Input
                 settings={
                   {
@@ -75,20 +75,20 @@ export default function ContactUs() {
         </div>
 
         <div className='text-white col-span-2'>
-          <p className='text-4xl font-bold'>
+          <p className='2xl:text-3xl text-2xl font-bold'>
             Other inquries?
           </p>
           
-          <div className='mt-24'>
-            <p className='text-xl font-bold mb-2'>Office</p>
-            <p className='text-xl mb-2'>office@welleplan.com</p>
-            <p className='text-xl'>+387 60 345 65 36</p>
+          <div className='2xl:mt-24 mt-16'>
+            <p className='2xl:text-xl text-lg font-bold mb-2'>Office</p>
+            <p className='2xl:text-xl text-lg mb-2'>office@welleplan.com</p>
+            <p className='2xl:text-xl text-lg'>+387 60 345 65 36</p>
           </div>
 
-          <div className='mt-24'>
-            <p className='text-xl font-bold mb-2'>Projects</p>
-            <p className='text-xl mb-2'>projects@welleplan.com</p>
-            <p className='text-xl'>+387 60 345 65 36</p>
+          <div className='2xl:mt-24 mt-16'>
+            <p className='2xl:text-xl text-lg font-bold mb-2'>Projects</p>
+            <p className='2xl:text-xl text-lg mb-2'>projects@welleplan.com</p>
+            <p className='2xl:text-xl text-lg'>+387 60 345 65 36</p>
           </div>
         </div>
       </div>
