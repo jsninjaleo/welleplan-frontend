@@ -40,7 +40,7 @@ export default function Home() {
             transition={first_section_view? { duration: 1.5, delay: 0.5 } : {}}
             ref={first_section}
           >
-            <p className='2xl:text-2xl xl:text-xl text-lg font-bold my-6'>Let's Create Your Digital Success Story</p>
+            <p className='2xl:text-2xl xl:text-xl text-lg font-bold my-6'>{"Let's Create Your Digital Success Story"}</p>
           </motion.div>
 
           <motion.div
@@ -101,8 +101,8 @@ export default function Home() {
           <p className='2xl:text-lg'>
             WELLEPLAN is a software development company based in Sarajevo, Bosnia and Herzegovina with offices in China and Austria. 
             For almost a decade, we have been transforming businesses with adaptable and powerful digital solutions through full-cycle software development.<br/><br/>
-            At Welleplan, we're not just a web development agency; we're your strategic partner in the digital realm.
-            With a profound passion for crafting exceptional web experiences, we've been at the forefront of the industry, helping businesses of all sizes thrive in the online landscape.
+            At Welleplan, we&apos;re not just a web development agency; we&apos;re your strategic partner in the digital realm.
+            With a profound passion for crafting exceptional web experiences, we&apos;ve been at the forefront of the industry, helping businesses of all sizes thrive in the online landscape.
           </p>
         </motion.div>
 
@@ -248,14 +248,14 @@ export default function Home() {
       <div className='bg-mainBlue 2xl:px-52 px-32 2xl:py-36 py-24' ref={forth_section}>
         <div className='grid grid-cols-5 gap-4 2xl:mb-48 mb-36'>
           <div className='col-span-3'>
-            <p className='2xl:text-4xl text-3xl font-bold'>Let's Collaborate</p>
+            <p className='2xl:text-4xl text-3xl font-bold'>Let&apos;s Collaborate</p>
 
             <p className='2xl:text-2xl text-xl font-medium 2xl:mt-6 mt-4'>
               Ready to embark on a journey of digital transformation?
             </p>
 
             <p className='2xl:text-2xl text-xl font-semibold 2xl:mt-16 mt-12'>
-              We'd love to hear about your project.<br></br><br></br>
+              We&apos;d love to hear about your project.<br></br><br></br>
               Contact us today to discuss your ideas, and together, we can bring your vision to life.<br></br><br></br>
               Join us at Welleplan and experience the difference in software development
             </p>
