@@ -9,7 +9,7 @@ import { mobileDevelopmentList } from '@/config/development'
 export default function ContactUs() {
   return (
     <div>
-            <div className="bg-gradient-to-r from-60% from-lightYellow_gradient to-mainBlue grid grid-cols-2 gap-20 2xl:pt-28 pt-24 pb-4 2xl:px-52 px-32 relative">
+      <div className="bg-gradient-to-r from-60% from-lightYellow_gradient to-mainBlue grid grid-cols-2 gap-20 2xl:pt-28 pt-24 pb-4 2xl:px-52 px-32 relative">
         <div className='flex items-center'>
           <div>
             <div className='flex items-center mb-6'>
