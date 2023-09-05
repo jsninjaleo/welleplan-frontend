@@ -50,9 +50,9 @@ export default function Home({
         <main>{children}</main>
 
         <ScrollToTop
-            smooth
-            className='!bg-transparent !shadow-none !border !border-solid !border-black !rounded-full flex items-center justify-center'
-            component={<ScrollTop />}
+          smooth
+          className='!bg-transparent !shadow-none !border !border-solid !border-black !rounded-full flex items-center justify-center'
+          component={<ScrollTop />}
         >
         </ScrollToTop>
 

@@ -144,7 +144,7 @@ export default function ContactUs() {
               Our designers create visually stunning and intuitive interfaces that enhance user engagement and satisfaction.
             </p>
 
-            <div className='2xl:w-28 w-20 2xl:h-10 h-8'>
+            {/* <div className='2xl:w-28 w-20 2xl:h-10 h-8'>
               <Button
                 style={
                   { 
@@ -158,7 +158,7 @@ export default function ContactUs() {
               >
                   {"More"}
               </Button>
-            </div>
+            </div> */}
           </div>
         </motion.div>
 
@@ -199,7 +199,7 @@ export default function ContactUs() {
               Whether you need a web application, mobile app, or desktop software, our experts are here to build it from the ground up.
             </p>
 
-            <div className='2xl:w-28 w-20 2xl:h-10 h-8'>
+            {/* <div className='2xl:w-28 w-20 2xl:h-10 h-8'>
               <Button
                 style={
                   { 
@@ -213,7 +213,7 @@ export default function ContactUs() {
               >
                   {"More"}
               </Button>
-            </div>
+            </div> */}
           </div>
         </motion.div>
 

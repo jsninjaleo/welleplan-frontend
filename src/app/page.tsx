@@ -51,35 +51,35 @@ export default function Home() {
             ref={first_section}
           >
             <div className='2xl:h-12 h-8 2xl:w-48 w-36 mr-6'>
-                <Button
-                  style={
-                    { 
-                        fontSize: '2xl:text-lg', 
-                        fontColor: 'text-white',
-                        hoveredFontColor: 'hover:text-mainYellow',
-                        bgColor: 'bg-mainYellow', 
-                        hoveredBgColor: 'hover:bg-white' 
-                    }
+              <Button
+                style={
+                  { 
+                    fontSize: '2xl:text-lg', 
+                    fontColor: 'text-white',
+                    hoveredFontColor: 'hover:text-mainYellow',
+                    bgColor: 'bg-mainYellow', 
+                    hoveredBgColor: 'hover:bg-white' 
                   }
-                  handleClick={()=>{}}
-                >
-                    See our work
-                </Button>
+                }
+                handleClick={()=>{}}
+              >
+                See our work
+              </Button>
             </div>
             <div className='2xl:h-12 h-8 2xl:w-48 w-36'>
               <Button
                 style={
-                    { 
-                        fontSize: '2xl:text-lg', 
-                        fontColor: 'text-mainBlue',
-                        hoveredFontColor: 'hover:text-white',
-                        bgColor: 'bg-white', 
-                        hoveredBgColor: 'hover:bg-mainPurple' 
-                    }
+                  { 
+                    fontSize: '2xl:text-lg', 
+                    fontColor: 'text-mainBlue',
+                    hoveredFontColor: 'hover:text-white',
+                    bgColor: 'bg-white', 
+                    hoveredBgColor: 'hover:bg-mainPurple' 
+                  }
                 }
                 handleClick={()=>{}}
               >
-                  Blog
+                Blog
               </Button>
             </div>
           </motion.div>
@@ -152,13 +152,13 @@ export default function Home() {
           transition={third_section_view? { duration: 1, delay: 0.3 } : {}}
           className='flex items-center'
         >
-            <div>
-              <p className='2xl:text-5xl text-4xl font-bold mb-10'>Mobile</p>
-              <p className='2xl:text-3xl text-2xl !leading-loose'>
-                We got you covered.
-                Our dedicated development teams can respond to any task or challenge that you have.
-              </p>
-            </div>
+          <div>
+            <p className='2xl:text-5xl text-4xl font-bold mb-10'>Mobile</p>
+            <p className='2xl:text-3xl text-2xl !leading-loose'>
+              We got you covered.
+              Our dedicated development teams can respond to any task or challenge that you have.
+            </p>
+          </div>
         </motion.div>
 
         <motion.div
@@ -229,15 +229,15 @@ export default function Home() {
                 <Button
                   style={
                     { 
-                        fontSize: '2xl:text-lg', 
-                        fontColor: 'text-white',
-                        bgColor: 'bg-mainBlue', 
-                        hoveredBgColor: 'hover:bg-mainYellow'
+                      fontSize: '2xl:text-lg', 
+                      fontColor: 'text-white',
+                      bgColor: 'bg-mainBlue', 
+                      hoveredBgColor: 'hover:bg-mainYellow'
                     }
                   }
                   handleClick={()=>{}}
                 >
-                    {"Let's build something"}
+                  {"Let's build something"}
                 </Button>
               </motion.div>
             </div>
@@ -271,18 +271,18 @@ export default function Home() {
               
               <div className='2xl:h-10 h-8 2xl:w-40 w-32 mx-auto my-6'>
                 <Button
-                    style={
-                      { 
-                          fontSize: '2xl:text-lg', 
-                          fontColor: 'text-white',
-                          bgColor: 'bg-mainYellow', 
-                          hoveredBgColor: 'hover:bg-mainPurple'
-                      }
+                  style={
+                    { 
+                      fontSize: '2xl:text-lg', 
+                      fontColor: 'text-white',
+                      bgColor: 'bg-mainYellow', 
+                      hoveredBgColor: 'hover:bg-mainPurple'
                     }
-                    handleClick={()=>{router.push('/contactUs')}}
-                  >
-                      {"Contact Us"}
-                  </Button>
+                  }
+                  handleClick={()=>{router.push('/contactUs')}}
+                >
+                  {"Contact Us"}
+                </Button>
               </div>
             </motion.div>
           </div>
@@ -303,26 +303,26 @@ export default function Home() {
         <div className='flex items-center justify-center 2xl:mt-10 mt-8'>
           <div className='w-1/2 mr-4'>
             <input 
-                className='py-2 px-10 2xl:text-xl text-lg rounded-full w-full'
-                type="text" 
-                placeholder='...enter your email address'
-              />
+              className='py-2 px-10 2xl:text-xl text-lg rounded-full w-full'
+              type="text" 
+              placeholder='...enter your email address'
+            />
           </div>
 
           <div className='2xl:w-48 w-36 2xl:h-12 h-10'>
             <Button
               style={
                 { 
-                    fontSize: '2xl:text-lg', 
-                    fontColor: 'text-white',
-                    hoveredFontColor: 'hover:text-mainYellow',
-                    bgColor: 'bg-mainBlue',
-                    border: 'border-2 border-white',
+                  fontSize: '2xl:text-lg', 
+                  fontColor: 'text-white',
+                  hoveredFontColor: 'hover:text-mainYellow',
+                  bgColor: 'bg-mainBlue',
+                  border: 'border-2 border-white',
                 }
               }
               handleClick={()=>{}}
             >
-                SUBSCRIBE
+              SUBSCRIBE
             </Button>
           </div>
         </div>
