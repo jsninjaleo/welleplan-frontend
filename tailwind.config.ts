@@ -23,6 +23,8 @@ const config: Config = {
         mainPurple_dark: '#340040',
         darkYellow_gradient: '#FFA800',
         lightYellow_gradient: '#FFC635',
+        mainGrey: '#E2D9D5',
+        processTitleColor: '#263238',
       }
     },
   },
