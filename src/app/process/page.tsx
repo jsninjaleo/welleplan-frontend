@@ -236,7 +236,7 @@ export default function ContactUs() {
               </div>
               <div className='2xl:text-xl text-sm font-semibold'>
                 Once we have a good understanding of the requirements, we design the system architecture. 
-                This includes defining the system's components, their interactions, and the interfaces between them.
+                This includes defining the system&apos;s components, their interactions, and the interfaces between them.
               </div>
             </div>
           </div>
