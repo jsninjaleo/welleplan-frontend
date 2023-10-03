@@ -11,7 +11,7 @@ export default function Header({themeColor}: {themeColor: string}) {
     function navigate(route: string): void {
         switch(route) {
             case "Our Process":
-                router.push('/ourProcess');
+                router.push('/process');
                 break;
             case "Services":
                 router.push('/services');
