@@ -97,7 +97,7 @@ export default function ContactUs() {
 
             <p className='2xl:text-base text-sm mb-6 font-semibold !leading-relaxed'>
               We believe that it is important to be agile and adaptable in the software development process. 
-              Things don't always go according to plan, so we are prepared to make adjustments as needed. 
+              Things don&apos;t always go according to plan, so we are prepared to make adjustments as needed. 
               We also believe that it is important to be transparent with our clients about any challenges or setbacks that we encounter.
             </p>
           </div>
@@ -132,7 +132,7 @@ export default function ContactUs() {
               </div>
               <div className='2xl:text-xl text-sm font-semibold'>
                 We start by getting to know your business and your goals for your website. 
-                 We discuss your target audience, the features and functionality you need, and the overall look and feel you're going for.
+                 We discuss your target audience, the features and functionality you need, and the overall look and feel you&apos;re going for.
               </div>
             </div>
           </div>
@@ -158,7 +158,7 @@ export default function ContactUs() {
               </div>
               <div className='2xl:text-xl text-sm font-semibold'>
                 Once we have a good understanding of your needs, we create a detailed project plan that outlines the scope of work, timeline, and budget. 
-                We'll also work with you to develop a content strategy and sitemap.
+                We&apos;ll also work with you to develop a content strategy and sitemap.
               </div>
             </div>
           </div>
@@ -184,7 +184,7 @@ export default function ContactUs() {
               </div>
               <div className='2xl:text-xl text-sm font-semibold'>
                 Once we have a good understanding of the requirements, we design the system architecture. 
-                This includes defining the system's components, their interactions, and the interfaces between them.
+                This includes defining the system&apos;s components, their interactions, and the interfaces between them.
               </div>
             </div>
           </div>
