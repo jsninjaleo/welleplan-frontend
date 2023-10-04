@@ -126,11 +126,11 @@ export default function ContactUs() {
               </p>
             </div>
 
-            <div className='hidden group-hover/item:flex items-center justify-center bg-mainGrey p-8'>
+            <div className='group-hover/item:transition duration-500 ease-in-out h-0 group-hover/item:h-64 flex items-center justify-center bg-mainGrey p-0 group-hover/item:p-8'>
               <div>
-                <Image src="/images/image_consultation.svg" className='hidden group-hover/item:block max-w-max !w-48 h-48 pr-8' width={190} height={190} alt="" />
+                <Image src="/images/image_consultation.svg" className='group-hover/item:transition delay-100 duration-75 ease-in-out opacity-0 group-hover/item:opacity-100 max-w-max !w-48 h-48 pr-8' width={190} height={190} alt="" />
               </div>
-              <div className='2xl:text-xl text-sm font-semibold'>
+              <div className='2xl:text-xl text-sm font-semibold opacity-0 group-hover/item:opacity-100 group-hover/item:transition delay-100 duration-75 ease-in-out'>
                 We start by getting to know your business and your goals for your website. 
                  We discuss your target audience, the features and functionality you need, and the overall look and feel you&apos;re going for.
               </div>
@@ -152,11 +152,11 @@ export default function ContactUs() {
               </p>
             </div>
 
-            <div className='hidden group-hover/item:flex items-center justify-center bg-mainGrey p-8'>
+            <div className='group-hover/item:transition duration-500 ease-in-out h-0 group-hover/item:h-64 flex items-center justify-center bg-mainGrey p-0 group-hover/item:p-8'>
               <div>
-                <Image src="/images/image_planning.svg" className='hidden group-hover/item:block max-w-max !w-48 h-48 pr-8' width={190} height={190} alt="" />
+                <Image src="/images/image_planning.svg" className='group-hover/item:transition delay-100 duration-75 ease-in-out opacity-0 group-hover/item:opacity-100 max-w-max !w-48 h-48 pr-8' width={190} height={190} alt="" />
               </div>
-              <div className='2xl:text-xl text-sm font-semibold'>
+              <div className='2xl:text-xl text-sm font-semibold opacity-0 group-hover/item:opacity-100 group-hover/item:transition delay-100 duration-75 ease-in-out'>
                 Once we have a good understanding of your needs, we create a detailed project plan that outlines the scope of work, timeline, and budget. 
                 We&apos;ll also work with you to develop a content strategy and sitemap.
               </div>
@@ -178,11 +178,11 @@ export default function ContactUs() {
               </p>
             </div>
 
-            <div className='hidden group-hover/item:flex items-center justify-center bg-mainGrey p-8'>
+            <div className='group-hover/item:transition duration-500 ease-in-out h-0 group-hover/item:h-64 flex items-center justify-center bg-mainGrey p-0 group-hover/item:p-8'>
               <div>
-                <Image src="/images/image_design.svg" className='hidden group-hover/item:block max-w-max !w-48 h-48 pr-8' width={190} height={190} alt="" />
+                <Image src="/images/image_design.svg" className='group-hover/item:transition delay-100 duration-75 ease-in-out opacity-0 group-hover/item:opacity-100 max-w-max !w-48 h-48 pr-8' width={190} height={190} alt="" />
               </div>
-              <div className='2xl:text-xl text-sm font-semibold'>
+              <div className='2xl:text-xl text-sm font-semibold opacity-0 group-hover/item:opacity-100 group-hover/item:transition delay-100 duration-75 ease-in-out'>
                 Once we have a good understanding of the requirements, we design the system architecture. 
                 This includes defining the system&apos;s components, their interactions, and the interfaces between them.
               </div>
@@ -204,11 +204,11 @@ export default function ContactUs() {
               </p>
             </div>
 
-            <div className='hidden group-hover/item:flex items-center justify-center bg-mainGrey p-8'>
+            <div className='group-hover/item:transition duration-500 ease-in-out h-0 group-hover/item:h-64 flex items-center justify-center bg-mainGrey p-0 group-hover/item:p-8'>              
               <div>
-                <Image src="/images/image_development.svg" className='hidden group-hover/item:block max-w-max !w-48 h-48 pr-8' width={190} height={190} alt="" />
+                <Image src="/images/image_development.svg" className='group-hover/item:transition delay-100 duration-75 ease-in-out opacity-0 group-hover/item:opacity-100 max-w-max !w-48 h-48 pr-8' width={190} height={190} alt="" />
               </div>
-              <div className='2xl:text-xl text-sm font-semibold'>
+              <div className='2xl:text-xl text-sm font-semibold opacity-0 group-hover/item:opacity-100 group-hover/item:transition delay-100 duration-75 ease-in-out'>
                 Once the system architecture is in place, we begin development. 
                 This involves writing code, testing it, and debugging it. We also integrate the system with any third-party components that it relies on.
               </div>
@@ -230,11 +230,11 @@ export default function ContactUs() {
               </p>
             </div>
 
-            <div className='hidden group-hover/item:flex items-center justify-center bg-mainGrey p-8'>
+            <div className='group-hover/item:transition duration-500 ease-in-out h-0 group-hover/item:h-64 flex items-center justify-center bg-mainGrey p-0 group-hover/item:p-8'>              
               <div>
-                <Image src="/images/image_testing.svg" className='hidden group-hover/item:block max-w-max !w-48 h-48 pr-8' width={190} height={190} alt="" />
+                <Image src="/images/image_testing.svg" className='group-hover/item:transition delay-100 duration-75 ease-in-out opacity-0 group-hover/item:opacity-100 max-w-max !w-48 h-48 pr-8' width={190} height={190} alt="" />
               </div>
-              <div className='2xl:text-xl text-sm font-semibold'>
+              <div className='2xl:text-xl text-sm font-semibold opacity-0 group-hover/item:opacity-100 group-hover/item:transition delay-100 duration-75 ease-in-out'>
                 Once we have a good understanding of the requirements, we design the system architecture. 
                 This includes defining the system&apos;s components, their interactions, and the interfaces between them.
               </div>
@@ -256,11 +256,11 @@ export default function ContactUs() {
               </p>
             </div>
 
-            <div className='hidden group-hover/item:flex items-center justify-center bg-mainGrey p-8'>
+            <div className='group-hover/item:transition duration-500 ease-in-out h-0 group-hover/item:h-64 flex items-center justify-center bg-mainGrey p-0 group-hover/item:p-8'>              
               <div>
-                <Image src="/images/image_launch.svg" className='hidden group-hover/item:block max-w-max !w-48 h-48 pr-8' width={190} height={190} alt="" />
+                <Image src="/images/image_launch.svg" className='group-hover/item:transition delay-100 duration-75 ease-in-out opacity-0 group-hover/item:opacity-100 max-w-max !w-48 h-48 pr-8' width={190} height={190} alt="" />
               </div>
-              <div className='2xl:text-xl text-sm font-semibold'>
+              <div className='2xl:text-xl text-sm font-semibold opacity-0 group-hover/item:opacity-100 group-hover/item:transition delay-100 duration-75 ease-in-out'>
                 Once the system architecture is in place, we begin development. 
                 This involves writing code, testing it, and debugging it. 
                 We also integrate the system with any third-party components that it relies on.
@@ -283,11 +283,11 @@ export default function ContactUs() {
               </p>
             </div>
 
-            <div className='hidden group-hover/item:flex items-center justify-center bg-mainGrey p-8'>
+            <div className='group-hover/item:transition duration-500 ease-in-out h-0 group-hover/item:h-64 flex items-center justify-center bg-mainGrey p-0 group-hover/item:p-8'>
               <div>
-                <Image src="/images/image_support.svg" className='hidden group-hover/item:block max-w-max !w-48 h-48 pr-8' width={190} height={190} alt="" />
+                <Image src="/images/image_support.svg" className='group-hover/item:transition delay-100 duration-75 ease-in-out opacity-0 group-hover/item:opacity-100 max-w-max !w-48 h-48 pr-8' width={190} height={190} alt="" />
               </div>
-              <div className='2xl:text-xl text-sm font-semibold'>
+              <div className='2xl:text-xl text-sm font-semibold opacity-0 group-hover/item:opacity-100 group-hover/item:transition delay-100 duration-75 ease-in-out'>
                 Once the system is deployed, we continue to provide maintenance and support to our clients. 
                 This includes fixing bugs, adding new features, and helping them to troubleshoot any problems that they encounter.
               </div>
