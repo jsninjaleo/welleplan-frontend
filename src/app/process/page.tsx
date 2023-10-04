@@ -120,7 +120,7 @@ export default function ContactUs() {
         >
           <div className='w-full items-start'>
             <div className='flex items-center justify-center group-hover/item:justify-start 2xl:py-8 py-4 2xl:px-10 px-6 bg-mainBlue'>
-              <Image src="/images/icon_consultation.svg" className='group-hover/item:hidden' width={60} height={60} alt="" />
+              <Image src="/images/icon_consultation.svg" className='group-hover/item:hidden' width={36} height={36} alt="" />
               <p className='2xl:text-3xl text-2xl font-semibold pl-8 text-processTitleColor'>
                 Consultation
               </p>
@@ -146,7 +146,7 @@ export default function ContactUs() {
         >
           <div className='w-full'>
             <div className='flex items-center justify-center group-hover/item:justify-start 2xl:py-8 py-4 2xl:px-10 px-6 bg-mainBlue'>
-              <Image src="/images/icon_planning.svg" className='group-hover/item:hidden' width={60} height={60} alt="" />
+              <Image src="/images/icon_planning.svg" className='group-hover/item:hidden' width={36} height={36} alt="" />
               <p className='2xl:text-3xl text-2xl font-semibold pl-8 text-processTitleColor'>
                 Planning
               </p>
@@ -172,7 +172,7 @@ export default function ContactUs() {
         >
           <div className='w-full'>
             <div className='flex items-center justify-center group-hover/item:justify-start 2xl:py-8 py-4 2xl:px-10 px-6 bg-mainBlue'>
-              <Image src="/images/icon_design.svg" className='group-hover/item:hidden' width={60} height={60} alt="" />
+              <Image src="/images/icon_design.svg" className='group-hover/item:hidden' width={36} height={36} alt="" />
               <p className='2xl:text-3xl text-2xl font-semibold pl-8 text-processTitleColor'>
                 Design
               </p>
@@ -198,7 +198,7 @@ export default function ContactUs() {
         >
           <div className='w-full'>
             <div className='flex items-center justify-center group-hover/item:justify-start 2xl:py-8 py-4 2xl:px-10 px-6 bg-mainBlue'>
-              <Image src="/images/icon_development.svg" className='group-hover/item:hidden' width={60} height={60} alt="" />
+              <Image src="/images/icon_development.svg" className='group-hover/item:hidden' width={36} height={36} alt="" />
               <p className='2xl:text-3xl text-2xl font-semibold pl-8 text-processTitleColor'>
                 Development
               </p>
@@ -224,7 +224,7 @@ export default function ContactUs() {
         >
           <div className='w-full'>
             <div className='flex items-center justify-center group-hover/item:justify-start 2xl:py-8 py-4 2xl:px-10 px-6 bg-mainBlue'>
-              <Image src="/images/icon_testing.svg" className='group-hover/item:hidden' width={60} height={60} alt="" />
+              <Image src="/images/icon_testing.svg" className='group-hover/item:hidden' width={36} height={36} alt="" />
               <p className='2xl:text-3xl text-2xl font-semibold pl-8 text-processTitleColor'>
                 Testing
               </p>
@@ -250,7 +250,7 @@ export default function ContactUs() {
         >
           <div className='w-full'>
             <div className='flex items-center justify-center group-hover/item:justify-start 2xl:py-8 py-4 2xl:px-10 px-6 bg-mainBlue'>
-              <Image src="/images/icon_launch.svg" className='group-hover/item:hidden' width={60} height={60} alt="" />
+              <Image src="/images/icon_launch.svg" className='group-hover/item:hidden' width={36} height={36} alt="" />
               <p className='2xl:text-3xl text-2xl font-semibold pl-8 text-processTitleColor'>
                 Launch
               </p>
@@ -277,7 +277,7 @@ export default function ContactUs() {
         >
           <div className='group/item w-1/2 hover:w-full cursor-pointer'>
             <div className='flex items-center justify-center group-hover/item:justify-start 2xl:py-8 py-4 2xl:px-10 px-6 bg-mainBlue'>
-              <Image src="/images/icon_support.svg" className='group-hover/item:hidden' width={60} height={60} alt="" />
+              <Image src="/images/icon_support.svg" className='group-hover/item:hidden' width={36} height={36} alt="" />
               <p className='2xl:text-3xl text-2xl font-semibold pl-8 text-processTitleColor'>
                 Maitanance & Support
               </p>
