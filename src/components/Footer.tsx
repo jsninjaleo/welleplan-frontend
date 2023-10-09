@@ -40,7 +40,7 @@ export default function Footer({themeColor}: {themeColor: string}) {
                                             hoveredBgColor: ''
                                         }
                                         }
-                                        handleClick={()=>{}}
+                                        handleClick={()=>{router.push('/contactUs')}}
                                     >
                                         {"Let's Connect"}
                                     </Button>

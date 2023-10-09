@@ -319,7 +319,7 @@ export default function ContactUs() {
                         hoveredBgColor: 'hover:bg-mainYellow'
                     }
                   }
-                  handleClick={()=>{}}
+                  handleClick={()=>{router.push('/contactUs')}}
                 >
                     {"Get in touch."}
                 </Button>

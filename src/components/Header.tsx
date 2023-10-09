@@ -42,7 +42,7 @@ export default function Header({themeColor}: {themeColor: string}) {
                 </h1>
             </div>
             <div className="xl:col-span-2 col-span-3">
-                <div className="ml-auto 2xl:w-5/6 xl:11/12 w-full flex items-center justify-between">
+                <div className="ml-auto 2xl:w-2/5 xl:1/2 w-3/5 flex items-center justify-between">
                     {
                         headerNav.map((option, index)=>{
                             return (
