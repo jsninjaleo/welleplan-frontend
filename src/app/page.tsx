@@ -61,12 +61,12 @@ export default function Home() {
                     hoveredBgColor: 'hover:bg-white' 
                   }
                 }
-                handleClick={()=>{}}
+                handleClick={()=>{router.push('/contactUs');}}
               >
-                See our work
+                Contact Us
               </Button>
             </div>
-            <div className='2xl:h-12 h-8 2xl:w-48 w-36'>
+            {/* <div className='2xl:h-12 h-8 2xl:w-48 w-36'>
               <Button
                 style={
                   { 
@@ -81,7 +81,7 @@ export default function Home() {
               >
                 Blog
               </Button>
-            </div>
+            </div> */}
           </motion.div>
         </div>
 
@@ -235,7 +235,7 @@ export default function Home() {
                       hoveredBgColor: 'hover:bg-mainYellow'
                     }
                   }
-                  handleClick={()=>{}}
+                  handleClick={()=>{router.push('/contactUs');}}
                 >
                   {"Let's build something"}
                 </Button>

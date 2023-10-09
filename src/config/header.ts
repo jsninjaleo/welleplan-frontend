@@ -1,1 +1,1 @@
-export const headerNav = [ "Our Process", "Services", "Cases", "Careers", "Blog" ];
+export const headerNav = [ "Our Process", "Services" ];
