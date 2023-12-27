@@ -21,7 +21,13 @@ export default function Footer({themeColor}: {themeColor: string}) {
                                 {
                                     list.options.map((option, key)=>{
                                     return (
-                                        <li key={key} className='2xl:text-base text-sm mb-3'>{option}</li>
+                                        <li 
+                                            key={key}
+                                            className='2xl:text-base text-sm mb-3 cursor-pointer'
+                                            onClick={()=>{option === 'Terms and Conditions' ? router.push('/termsAndConditions') : null}}
+                                        >
+                                            {option}
+                                        </li>
                                     )
                                     })
                                 }
