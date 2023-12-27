@@ -6,6 +6,7 @@ import { motion, useInView } from 'framer-motion'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import AnimationBrand from "@/components/Home/AnimationBrand"
+import { stackList } from '@/config/stacks'
 
 export default function Home() {
   const router = useRouter();
@@ -240,7 +241,43 @@ export default function Home() {
                   {"Let's build something"}
                 </Button>
               </motion.div>
-            </div>
+            </div> 
+          </div>
+        </div>
+
+        <div className='flex items-center justify-center mt-24 col-span-2'>
+          <div>
+            <motion.div
+              initial={{ opacity: 0}}
+              animate={third_section_view? { opacity: 1} : {}}
+              transition={third_section_view? { duration: 1, delay: 2.1 } : {}}
+              className='col-span-2 font-medium 2xl:text-5xl text-4xl text-center 2xl:pb-20 pb-12'
+            >
+              Technologies in our pipeline
+            </motion.div>
+
+            <div className='flex flex-wrap gap-14'>
+              {
+                stackList.map((item, index)=>{
+                  return (
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0}}
+                      animate={third_section_view? { opacity: 1} : {}}
+                      transition={third_section_view? { duration: 0.5, delay: 2.4 + 0.1 * index } : {}}
+                      className='flex items-center justify-center'
+                    >
+                      <Image 
+                        src={item.img} 
+                        alt=''  
+                        width={item.width}
+                        height={item.height}
+                      />
+                    </motion.div>
+                  )
+                })
+              }
+            </div> 
           </div>
         </div>
       </div>
