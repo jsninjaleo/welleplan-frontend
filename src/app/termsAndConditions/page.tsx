@@ -29,18 +29,18 @@ export default function ContactUs() {
 				<div className='mb-16'>
 					<p className='font-semibold text-lg uppercase mb-6'>Terms and conditions</p>
 					<p className='mb-6'>
-						Last updated November 23, 2023 AGREEMENT TO OUR LEGAL TERMS We are Welleplan Digital Group društvo sa ograničenom odgovornošću Sarajevo, doing business as Welleplan and WDG ("Company,"
-						"we," "us," "our"), a company registered in Bosnia and Herzegovina at Skenderpašina 1, Sarajevo, Kanton Sarajevo 71000. Our VAT number is 4202544750000.
+						Last updated November 23, 2023 AGREEMENT TO OUR LEGAL TERMS We are Welleplan Digital Group društvo sa ograničenom odgovornošću Sarajevo, doing business as Welleplan and WDG {`("Company,"
+						"we," "us," "our")`}, a company registered in Bosnia and Herzegovina at Skenderpašina 1, Sarajevo, Kanton Sarajevo 71000. Our VAT number is 4202544750000.
 					</p>
 					<p className='mb-6'>
-						We operate the website <a href='http://www.welleplan.com'>http://www.welleplan.com</a> (the "Site"), as well as any other related products and services that refer or link to these legal
-						terms (the "Legal Terms") (collectively, the "Services").<br></br>
+						We operate the website <a href='http://www.welleplan.com'>http://www.welleplan.com</a> {`(the "Site")`}, as well as any other related products and services that refer or link to these legal
+						terms {`(the "Legal Terms")`} (collectively, the "Services").<br></br>
 						WELLEPLAN is a software development company based in Sarajevo, Bosnia and Herzegovina with offices in China and Austria. For almost a decade, we have been transforming businesses with
 						adaptable and powerful digital solutions through fullcycle software development.<br></br>
 						You can contact us by phone at 00387 60 345 65 36, email at info@welleplan.com, or by mail to Skenderpašina 1, Sarajevo, Kanton Sarajevo 71000, Bosnia and Herzegovina.
 					</p>
 					<p className='mb-6'>
-						These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you"), and Welleplan Digital Group društvo sa ograničenom
+						These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity {`("you")`}, and Welleplan Digital Group društvo sa ograničenom
 						odgovornošću Sarajevo, concerning your access to and use of the Services.
 					</p>
 					<p className='mb-6'>
@@ -92,15 +92,15 @@ export default function ContactUs() {
 
 					<p className='mb-6'>
 						Our intellectual property We are the owner or the licensee of all intellectual property rights in our Services, including all source code, databases, functionality, software, website
-						designs, audio, video, text, photographs, and graphics in the Services (collectively, the "Content"), as well as the trademarks, service marks, and logos contained therein (the "Marks").
+						designs, audio, video, text, photographs, and graphics in the Services {`(collectively, the "Content")`}, as well as the trademarks, service marks, and logos contained therein (the "Marks").
 						<br></br>
 						<br></br>
 						Our Content and Marks are protected by copyright and trademark laws (and various other intellectual property rights and unfair competition laws) and treaties in the United States and
 						around the world.<br></br>
 						<br></br>
-						The Content and Marks are provided in or through the Services "AS IS" for your personal, non-commercial use or internal business purpose only.<br></br>
+						The Content and Marks are provided in or through the Services {`"AS IS"`} for your personal, non-commercial use or internal business purpose only.<br></br>
 						<br></br>
-						Your use of our Services Subject to your compliance with these Legal Terms, including the "PROHIBITED ACTIVITIES" section below, we grant you a non-exclusive, non-transferable, revocable
+						Your use of our Services Subject to your compliance with these Legal Terms, including the {`"PROHIBITED ACTIVITIES"`} section below, we grant you a non-exclusive, non-transferable, revocable
 						license to: access the Services; and download or print a copy of any portion of the Content to which you have properly gained access.<br></br>
 						<br></br>
 						solely for your personal, non-commercial use or internal business purpose. Except as set out in this section or elsewhere in our Legal Terms, no part of the Services and no Content or
@@ -116,14 +116,14 @@ export default function ContactUs() {
 						We reserve all rights not expressly granted to you in and to the Services, Content, and Marks. Any breach of these Intellectual Property Rights will constitute a material breach of our
 						Legal Terms and your right to use our Services will terminate immediately.<br></br>
 						<br></br>
-						Your submissions Please review this section and the "PROHIBITED ACTIVITIES" section carefully prior to using our Services to understand the (a) rights you give us and (b) obligations you
+						Your submissions Please review this section and the {`"PROHIBITED ACTIVITIES"`} section carefully prior to using our Services to understand the (a) rights you give us and (b) obligations you
 						have when you post or upload any content through the Services. Submissions: By directly sending us any question, comment, suggestion, idea, feedback, or other information about the
-						Services ("Submissions"), you agree to assign to us all intellectual property rights in such Submission.<br></br>
+						Services {`("Submissions")`}, you agree to assign to us all intellectual property rights in such Submission.<br></br>
 						<br></br>
 						You agree that we shall own this Submission and be entitled to its unrestricted use and dissemination for any lawful purpose, commercial or otherwise, without acknowledgment or
 						compensation to you.<br></br>
 						<br></br>
-						You are responsible for what you post or upload: By sending us Submissions through any part of the Services you: confirm that you have read and agree with our "PROHIBITED ACTIVITIES" and
+						You are responsible for what you post or upload: By sending us Submissions through any part of the Services you: confirm that you have read and agree with our {`"PROHIBITED ACTIVITIES"`} and
 						will not post, send, publish, upload, or transmit through the Services any Submission that is illegal, harassing, hateful, harmful, defamatory, obscene, bullying, abusive, discriminatory,
 						threatening to any person or group, sexually explicit, false, inaccurate, deceitful, or misleading; to the extent permissible by applicable law, waive any and all moral rights to any such
 						Submission; warrant that any such Submission are original to you or that you have the necessary rights and licenses to submit such Submissions and that you have full authority to grant us
@@ -172,12 +172,12 @@ export default function ContactUs() {
 						Delete the copyright or other proprietary rights notice from any Content.<br></br>
 						Attempt to impersonate another user or person or use the username of another user.<br></br>
 						Upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear
-						graphics interchange formats ("gifs"), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as "spyware" or "passive collection mechanisms" or "pcms").<br></br>
+						graphics interchange formats {`("gifs")`}, 1×1 pixels, web bugs, cookies, or other similar devices {`(sometimes referred to as "spyware" or "passive collection mechanisms" or "pcms")`}.<br></br>
 						Interfere with, disrupt, or create an undue burden on the Services or the networks or services connected to the Services. Harass, annoy, intimidate, or threaten any of our employees or
 						agents engaged in providing any portion of the Services to you.<br></br>
 						Attempt to bypass any measures of the Services designed to prevent or restrict access to the Services, or any portion of the Services.<br></br>
 						<br></br>
-						Copy or adapt the Services' software, including but not limited to Flash, PHP, HTML, JavaScript, or other code. Except as permitted by applicable law, decipher, decompile, disassemble, or
+						Copy or adapt the Services&apos; software, including but not limited to Flash, PHP, HTML, JavaScript, or other code. Except as permitted by applicable law, decipher, decompile, disassemble, or
 						reverse engineer any of the software comprising or in any way making up a part of the Services.<br></br>
 						Except as may be the result of standard search engine or Internet browser usage, use, launch, develop, or distribute any automated system, including without limitation, any spider, robot,
 						cheat utility, scraper, or offline reader that accesses the Services, or use or launch any unauthorized script or other software.<br></br>
@@ -196,7 +196,7 @@ export default function ContactUs() {
 					<p className='mb-6'>
 						The Services does not offer users to submit or post content. We may provide you with the opportunity to create, submit, post, display, transmit, perform, publish, distribute, or broadcast
 						content and materials to us or on the Services, including but not limited to text, writings, video, audio, photographs, graphics, comments, suggestions, or personal information or other
-						material (collectively, "Contributions"). Contributions may be viewable by other users of the Services and through third-party websites.<br></br>
+						material {`(collectively, "Contributions")`}. Contributions may be viewable by other users of the Services and through third-party websites.<br></br>
 						When you create or make available any Contributions, you thereby represent and warrant that: The creation, distribution, transmission, public display, or performance, and the accessing,
 						downloading, or copying of your Contributions do not and will not infringe the proprietary rights, including but not limited to the copyright, patent, trademark, trade secret, or moral
 						rights of any third party.<br></br>
@@ -294,16 +294,16 @@ export default function ContactUs() {
 					<p id="12" className='font-semibold text-lg uppercase mb-6 pt-16'>12. DISPUTE RESOLUTION</p>
 
 					<p className='mb-6'>
-						Informal Negotiations To expedite resolution and control the cost of any dispute, controversy, or claim related to these Legal Terms (each a "Dispute" and collectively, the "Disputes")
-						brought by either you or us (individually, a "Party" and collectively, the "Parties"), the Parties agree to first attempt to negotiate any Dispute (except those Disputes expressly provided
+						Informal Negotiations To expedite resolution and control the cost of any dispute, controversy, or claim related to these Legal Terms {`(each a "Dispute" and collectively, the "Disputes")`}
+						brought by either you or us {`(individually, a "Party" and collectively, the "Parties")`}, the Parties agree to first attempt to negotiate any Dispute (except those Disputes expressly provided
 						below) informally for at least sixty (60) days before initiating arbitration. Such informal negotiations commence upon written notice from one Party to the other Party.
 					</p>
 
 					<p className='font-bold mb-6'>Binding Arbitration</p>
 
 					<p className='mb-6'>
-						Informal Negotiations To expedite resolution and control the cost of any dispute, controversy, or claim related to these Legal Terms (each a "Dispute" and collectively, the "Disputes")
-						brought by either you or us (individually, a "Party" and collectively, the "Parties"), the Parties agree to first attempt to negotiate any Dispute (except those Disputes expressly provided
+						Informal Negotiations To expedite resolution and control the cost of any dispute, controversy, or claim related to these Legal Terms {`(each a "Dispute" and collectively, the "Disputes")`}
+						brought by either you or us {`(individually, a "Party" and collectively, the "Parties")`}, the Parties agree to first attempt to negotiate any Dispute (except those Disputes expressly provided
 						below) informally for at least sixty (60) days before initiating arbitration. Such informal negotiations commence upon written notice from one Party to the other Party.
 					</p>
 
@@ -336,7 +336,7 @@ export default function ContactUs() {
 					<p className='uppercase'>
 						THE SERVICES ARE PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL
 						WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SERVICES AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
-						PURPOSE, AND NONINFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE SERVICES' CONTENT OR THE CONTENT OF ANY WEBSITES OR MOBILE APPLICATIONS
+						PURPOSE, AND NONINFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE SERVICES&apos; CONTENT OR THE CONTENT OF ANY WEBSITES OR MOBILE APPLICATIONS
 						LINKED TO THE SERVICES AND WE WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, (2) PERSONAL INJURY OR PROPERTY DAMAGE, OF
 						ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE SERVICES, (3) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR
 						FINANCIAL INFORMATION STORED THEREIN, (4) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SERVICES, (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED
