@@ -1,24 +1,19 @@
-import './globals.css'
+import "./globals.css"
 import "@fontsource/poppins"
-import Home from './home'
-import type { Metadata } from 'next'
+import Home from "./home"
+import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: 'Welleplan',
-  description: 'Welleplan',
+	title: "Welleplan",
+	description: "Welleplan",
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-
-  return (
-    <html lang="en">
-      <body>
-        <Home>{children}</Home>
-      </body>
-    </html>
-  )
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+	return (
+		<html lang='en'>
+			<body>
+				<Home>{children}</Home>
+			</body>
+		</html>
+	)
 }
