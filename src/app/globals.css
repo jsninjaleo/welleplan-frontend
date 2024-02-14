@@ -3,23 +3,23 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Heebo';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/fonts/Heebo-Regular.ttf') format('truetype');
+	font-family: "Heebo";
+	font-style: normal;
+	font-weight: 400;
+	src: url("/fonts/Heebo-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'HelveticaNeue';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/fonts/Helvetica Neu Bold.ttf') format('truetype');
+	font-family: "HelveticaNeue";
+	font-style: normal;
+	font-weight: 400;
+	src: url("/fonts/Helvetica Neu Bold.ttf") format("truetype");
 }
 
 body {
-    font-family: 'Poppins';
+	font-family: "Poppins";
 }
 
 h1 {
-    font-family: 'HelveticaNeue', sans-serif!important;
+	font-family: "HelveticaNeue", sans-serif !important;
 }

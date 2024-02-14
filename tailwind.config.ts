@@ -8,6 +8,15 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      'xxs': '375px',
+      'xs': '475px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px'
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -25,6 +34,7 @@ const config: Config = {
         lightYellow_gradient: '#FFC635',
         mainGrey: '#E2D9D5',
         processTitleColor: '#263238',
+        mobileMenuColor: '#65007E',
       }
     },
   },

@@ -5,7 +5,7 @@ export default function Button({ children, style, handleClick }: ButtonType) {
     return (
         <button
             className={
-                classNames('h-full w-full font-medium rounded-full transition duration-150 ease-in-out', 
+                classNames('h-full w-full font-medium rounded-full transition duration-150 ease-in-out px-1', 
                 style.fontSize, style.fontColor, style.bgColor, style.hoveredFontColor, style.hoveredBgColor, style.border, style.hoveredBorder)
             }
             onClick={handleClick}
